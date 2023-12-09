@@ -3,6 +3,7 @@ import "./App.css";
 import SearchForm from "./SearchForm";
 import CurrentLocationButton from "./CurrentLocationButton";
 import WeatherDetails from "./WeatherDetails";
+import WeatherForecast from "./WeatherForecast";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <SearchForm />
         <WeatherDetails />
         <CurrentLocationButton />
+        <WeatherForecast />
       </div>
       <small className="author-info">
         <a
