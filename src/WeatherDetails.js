@@ -3,7 +3,7 @@ import React from "react";
 function WeatherDetails() {
   return (
     <div>
-      <h1 id="city"></h1>
+      <h1 id="city">Paris</h1>
       <ul>
         <li id="date"></li>
         <li id="description"></li>
@@ -14,7 +14,7 @@ function WeatherDetails() {
             <div className="float-left">
               <img src="" alt="Clear" id="icon" className="float-left" />
               <span className="temperature">
-                <strong id="temperature"></strong>
+                <strong id="temperature">12</strong>
               </span>
               <span className="units">
                 <a href="" id="celcius-link" className="active">
