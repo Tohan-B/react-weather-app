@@ -10,8 +10,8 @@ function App() {
     <div className="container">
       <div className="weather-app">
         <SearchForm />
-        <WeatherDetails />
         <CurrentLocationButton />
+        <WeatherDetails />
         <WeatherForecast />
       </div>
       <small className="author-info">

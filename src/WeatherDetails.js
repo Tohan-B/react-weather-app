@@ -8,16 +8,16 @@ function WeatherDetails() {
         <li id="date"></li>
         <li id="description"></li>
       </ul>
-      <div class="row">
-        <div class="col-6">
-          <div class="clearfix weather-temperature">
-            <div class="float-left">
-              <img src="" alt="Clear" id="icon" class="float-left" />
-              <span class="temperature">
+      <div className="row">
+        <div className="col-6">
+          <div className="clearfix weather-temperature">
+            <div className="float-left">
+              <img src="" alt="Clear" id="icon" className="float-left" />
+              <span className="temperature">
                 <strong id="temperature"></strong>
               </span>
-              <span class="units">
-                <a href="" id="celcius-link" class="active">
+              <span className="units">
+                <a href="" id="celcius-link" className="active">
                   {" "}
                   °C{" "}
                 </a>
@@ -30,15 +30,15 @@ function WeatherDetails() {
           </div>
         </div>
 
-        <div class="col-6">
+        <div className="col-6">
           <ul>
             <li>
               Humidity: <span id="humidity"></span>
-              <span class="writeup-color">%</span>
+              <span className="writeup-color">%</span>
             </li>
             <li>
               Wind: <span id="wind"></span>
-              <span class="writeup-color"> km/h</span>
+              <span className="writeup-color"> km/h</span>
             </li>
           </ul>
         </div>
