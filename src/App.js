@@ -1,21 +1,23 @@
-import logo from "./logo.svg";
 import "./App.css";
+
+import SearchForm from "./SearchForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome to React.</p>
+    <div className="container">
+      <div className="weather-app">
+        <SearchForm />
+      </div>
+      <small className="author-info">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Tohan-B/SheCodes-Weather-app"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Open-source code
         </a>
-      </header>
+        , by Blessing Itohan
+      </small>
     </div>
   );
 }
