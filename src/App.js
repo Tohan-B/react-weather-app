@@ -1,12 +1,14 @@
 import "./App.css";
 
 import SearchForm from "./SearchForm";
+import CurrentLocationButton from "./CurrentLocationButton";
 
 function App() {
   return (
     <div className="container">
       <div className="weather-app">
         <SearchForm />
+        <CurrentLocationButton />
       </div>
       <small className="author-info">
         <a
